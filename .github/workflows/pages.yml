@@ -26,7 +26,7 @@ jobs:
       - name: Stage site
         run: |
           mkdir -p _site
-          rsync -a --exclude '.git' --exclude '.github' --exclude '_site' --exclude 'README.md' ./ _site/
+          rsync -a --exclude '.git' --exclude '.github' --exclude '_site' --exclude 'README.md' --exclude 'ai-music-lab' ./ _site/
           {
             echo '<!doctype html><meta charset="utf-8"><title>DJ Jesse Jay — Demos</title><h1>DJ Jesse Jay — Demos</h1><ul>'
             for d in _site/*/; do

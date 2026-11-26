@@ -7,3 +7,7 @@ Browser demos, published via GitHub Pages:
 - `xdj-hardware/` — XDJ/DJM hardware mapping and live MIDI monitor
 
 Pages source: GitHub Actions (`.github/workflows/pages.yml`).
+
+Not published to Pages (excluded in the workflow):
+
+- `ai-music-lab/` — local text-to-music experiments (Python, MusicGen + open models), docs and benchmark plan
